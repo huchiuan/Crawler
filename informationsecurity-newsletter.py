@@ -91,7 +91,7 @@ import json
 
 print(TotalData)
 
-with open('C:\\Users\\edison-hu\\Desktop\\7月9\\informationsecurityman_newsletter_final.json', 'w', encoding='utf-8') as f:
+with open('C:\\Users\\edison-hu\\Desktop\\7月9\\Crawler-\\informationsecurityman_newsletter.json', 'w', encoding='utf-8') as f:
     json.dump(TotalData, f,ensure_ascii=False,indent=2)
 
 ##寫檔
@@ -100,7 +100,7 @@ with open('C:\\Users\\edison-hu\\Desktop\\7月9\\informationsecurityman_newslett
 # In[44]:
 
 
-input_file = open ('C:\\Users\\edison-hu\\Desktop\\7月9\\informationsecurityman_newsletter_final.json',encoding = 'utf8')
+input_file = open ('C:\\Users\\edison-hu\\Desktop\\7月9\\Crawler-\\informationsecurityman_newsletter.json',encoding = 'utf8')
 json_array = json.load(input_file)
 print(json_array[0]['content'])
 ##讀檔
